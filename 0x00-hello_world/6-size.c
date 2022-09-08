@@ -1,13 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Entry point of the function, it prints the string in the printf function. 
- * This program print the size of various
- * types on the computer it is compiled and run on
- *Program returns 0 
- * Return: Always 0 (Success)
- */
-
+*main - Entry point of the function,prints the string in the printf function.
+*This program print the size of various
+*types on the computer it is compiled and run on.
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
