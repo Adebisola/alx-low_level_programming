@@ -1,8 +1,7 @@
-#!/bin/bash
 #include <stdio.h>
 
 /**
-* main - prints to string
+* main -Entry point of the program
 * Description: Prints "and that piece of art is useful.." without puts
 * Return: 1
 */
