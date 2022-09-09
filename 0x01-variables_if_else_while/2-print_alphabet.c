@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
 * main - Entry point
-
 * Description:program that prints numbers from 0 to 99.
 * Return: 0
 */
@@ -22,6 +23,5 @@ int main(void)
 		}
 		c++;
 	}
-putchar('\n');
 return (0);
 }
