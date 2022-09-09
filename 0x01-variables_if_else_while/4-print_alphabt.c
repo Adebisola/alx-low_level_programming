@@ -4,7 +4,7 @@
  *
  * Description: using the main function
  * this program prints all alphabets except e & q
- * Return: EXIT_SUCCESS
+ * Return: 0
  */
 int main(void)
 {
