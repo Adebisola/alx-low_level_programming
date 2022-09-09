@@ -12,7 +12,7 @@ int main(void)
 	/* local variable declaration */
 	int c = 0;
 /* while loop execution */
-for (c = 'a'; c <= 'z'; c++)	
+for (c = 'a'; c <= 'z'; c++)
 putchar(c);
 putchar('\n');
 
