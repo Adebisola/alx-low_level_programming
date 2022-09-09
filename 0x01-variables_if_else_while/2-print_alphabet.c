@@ -10,7 +10,7 @@
 int main(void)
 {
 	/* local variable declaration */
-	char c = 0;
+	int c = 0;
 /* while loop execution */
 for (c = 'a'; c <= 'z'; c++)
 {
