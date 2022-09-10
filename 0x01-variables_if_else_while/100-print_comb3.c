@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
-* main -Entry point. this function
+* main - Entry point.
+* Description: this function
 * prints all possible combinations
 * of two different digits,in ascending order,
 * separated by a comma followed by a space.
@@ -9,6 +10,7 @@
 */
 int main(void)
 {
+	/*local variable declaration*/
 	int i, j;
 
 for (i = 0; i < 9; i++)

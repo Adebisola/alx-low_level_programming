@@ -6,19 +6,18 @@
 * base 16 in lowercase.
 * Return: 0
 */
-int main(void)
+	int main(void)
 {
-/*local variables declaration*/
+	/*local variables declarations*/
 	int num;
-	char i;
-/*for loop execution*/
-for (num = 0; num < 10; num++)
-	putchar((num % 10) + '0');
+	char letter;
 
-for (i = 'a'; i <= 'f'; i++)
-	putchar(i);
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
+
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 
 	putchar('\n');
-
 return (0);
 }
