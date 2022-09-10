@@ -1,33 +1,30 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
-* main - Entry point.
-* Description: this function
-* prints all possible combinations
-* of two different digits,in ascending order,
-* separated by a comma followed by a space.
-* Return: Always 0.
+* main - entry point
+* Description:  prints all possible combinations of two digits
+* Return: 0
 */
 int main(void)
 {
-	/*local variable declaration*/
-	int i, j;
+	int x;
+	int y;
 
-for (i = 0; i < 9; i++)
-{
-for (j = i + 1; j < 10; j++)
-{
-	putchar((i % 10) + '0');
-	putchar((j % 10) + '0');
+	for (x = 0; x <= 9; x++)
+	{
+		for (y = x + 1; y <= 9; y++)
+		{
+			putchar('0' + x);
+			putchar('0' + y);
 
-	if (i == 8 && j == 9)
-	continue;
-
-	putchar(',');
-	putchar(' ');
-}
-
+			if (x != 8 || y != 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
 	putchar('\n');
-
-return (0);
+	return (0);
 }
