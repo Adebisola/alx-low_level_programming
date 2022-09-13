@@ -9,7 +9,7 @@
  * Description:_putchar function for printing _putchar:wq
  */
 
-int _putchar(char)
+int _putchar(char c);
 void print_alphabet(void);
 
 #endif
