@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Entry point
  * Description: using the main function
  * this program that prints -putchar.
  * Return: 0
  */
-char main(void)
+int main(void)
 {
 	putchar('_');
 	putchar('p');
