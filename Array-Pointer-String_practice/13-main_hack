@@ -1,0 +1,1 @@
+cat 13-main.c && gcc 13-main.c && ./a.out
