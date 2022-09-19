@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* _strlen - Entry point
+* _strlen - Entry point.
 * Description: _strlen function returns
 * the length of a string.
 * @s: string to check.
-* Return: Always 0.
+* Return: 0;
 */
 
 int _strlen(char *s)
