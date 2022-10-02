@@ -1,12 +1,11 @@
 #include "main.h"
-
 /**
- * _puts - function that prints a string, followed by a new line
- * @s: declaration of *:wqs and paramters for the function _puts
- * Return: Always 0.
- */
+* _puts - function to use to print.
+* *s - string character.
+* Return: 0;
+*/ 
+
 
 void _puts(char *s)
 {
-	
 }

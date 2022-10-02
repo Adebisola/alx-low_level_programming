@@ -1,10 +1,21 @@
-#include <unistd.h>
+#include "main.h"
+
 /**
- * _isdigit - function that checks for uppercase character.
- * @c: the int for the paramaters of my function
- * Return: 0
- */
+* _isdigit - Entry point
+* Description: _isdigit function check for a digit through
+* a range(0 to 9).
+* @c: this is the charcter to check
+* Return: 0;
+*/
+
 int _isdigit(int c)
 {
-	return (0);
+	if (c >= '0' && c <= '9')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
